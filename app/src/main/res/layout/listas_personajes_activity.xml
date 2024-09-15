@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Nombre del personaje -->
+    <TextView
+        android:id="@+id/personajeDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Personaje"
+        android:textSize="24sp"
+        android:paddingBottom="8dp" />
+
+    <!-- Publisher ID del personaje -->
+    <TextView
+        android:id="@+id/personajeDetailPublisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publisher ID"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <!-- Imagen del personaje -->
+    <ImageView
+        android:id="@+id/personajeDetailImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@+id/personaje_image"
+        android:paddingBottom="16dp" />
+
+    <!-- Botón para volver -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver" />
+</LinearLayout>
